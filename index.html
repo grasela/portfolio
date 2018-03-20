@@ -7,61 +7,51 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300, 900|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-
-
     <title>Eryk Grasela - Developer</title>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>…
+
 </head>
 <body>
+        <div class="fixed-menu">
+                <div class="fixed-bio"><a href="#bio-page">bio</a></div>
+                <div class="fixed-skills"><a href="#skills-page">skills</a></div>
+                <div class="fixed-contact"><a href="#contact-page">contact</a></div>
+            </div>
     <div class="wrapper">
+            
         <div id="landing-page">
-            <header>
-                <div class="profile-pic">
-                    <img src="img/eryk_profile.jpg" alt="profile picture of Eryk Grasela">
-                </div>
-            </header>
-            <main>
-                <div class="hover-menu bio fade-in">
-                    <a href="#bio-page"> bio</a>
-                </div>
-                <div class="hover-menu skills fade-in">
-                    <a href="#skills-page"> skills </a>
-                </div>
-                <div class="hover-menu contact fade-in">
-                    <a href="#contact-page"> contact</a>
-                </div>
-                <div class="developer">developer</div>
-                <div class="mondrian">
-                    <div class="first-row">
-                        <div class="bio-block"><a href="#bio-page"></a></div>
-                        <div class="name-block">eryk grasela</div>
+                <div class="mondrian">                  
+                    <div class="bio-block fade-in"><a href="#bio-page"></a></div>
+                    <div class="skills-block fade-in"><a href="#skills-page"></a></div>
+
+                    <div class="name-block">eryk grasela</div>  
+                        
+
+                    <div class="vertical"></div>
+                    <img src="img/eryk_profile.jpg" alt="profile picture of Eryk Grasela" class="profile-pic">
+
+                    <div class="horizontal-thin"></div>
+                    <div class="contact-block fade-in"> <a href="#contact-page"></a></div>
+                    <div class="logo">
+                    <img src="/img/logo-3.svg" alt="the logo of Eryk Grasela" class="fade-in"> 
                     </div>
-                    <div class="second-row">
-                        <div class="horizontal-thick"></div>
+                    
+                    <div class="pointer-block">
+                        <a href="#bio-page" class="fade-in">></a>
                     </div>
-                    <div class="third-row">
-                        <div class="empty"></div>
-                        <div class="skills-block"><a href="#skills-page"></a></div>
+                    <div class="contact fade-in"><a href="#contact-page">contact</a></div>
+                    
+                    <div class="bio fade-in">
+                        <a href="#bio-page"> bio</a>
                     </div>
-                    <div class="forth-row">
-                            <div class="contact-block"> <a href="#contact-page"></a></div>
-                        <div class="empty"></div>
+                    <div class="skills fade-in">
+                        <a href="#skills-page"> skills </a>
                     </div>
-                    <div class="fifth-row">
-                        <div class="horizontal-thin"></div>
-                    </div>
-                    <div class="seventh-row">
-                        <div class="vertical"></div>
-                    </div>
-                </div>
-            </main>
-            <footer>
-                <div class="logo fade-in">
-                    <img src="/img/logo-3.svg" alt="the logo of Eryk Grasela">
-                </div>
-                <div class="pointer-block fade-in">
-                        <span><a href="#bio-page">></a></span>
-                </div>
-            </footer>
+                    <div class="developer">developer</div>
+                    <div class="horizontal"></div>
+                </div>        
+                    
+            </div>
         </div>
         <!-- BIO -->
         <div class="bio-page" id="bio-page">
@@ -151,7 +141,7 @@
                         <input type="text" id="email" placeholder="email">
 
                         <label for="message"></label>
-                        <input type="text" id="message" placeholder="message">
+                        <textarea type="text" id="message" placeholder="message"></textarea>
                         <input type="submit" value="Submit">
                     </form>
                 </div>
@@ -177,5 +167,6 @@
             
             </div>   
     </div>
+  
 </body>
 </html>
