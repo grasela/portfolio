@@ -1,4 +1,7 @@
-@font-face { font-family: Bauhaus; src: url('/fonts/Bauhaus_.ttf');}
+@font-face {
+    font-family: Bauhaus;
+    src: url(fonts/Bauhaus_.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@ a {
     position: fixed;
     display: flex;
     flex-direction: row;
-    margin-top: 10vh;
+    margin-top: 20vh;
     transform: rotate(90deg) translate(220px, 210px);
     
 }
@@ -59,7 +62,10 @@ a {
 
 .fixed-bio:hover {
     transform: rotate(-90deg) translateX(60px);
-    transition-duration: 1s;
+    -webkit-transition: transition-duration: .8s;
+    -moz-transition: transition-duration: .8s;
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
     background: #EDB230;
     cursor: pointer;
     border: 1px solid #000;
@@ -77,8 +83,14 @@ a {
 }
 
 .fixed-skills:hover {
+
+    
     transform: rotate(-90deg) translateX(90px);
-    transition-duration: 1s;
+    -webkit-transition: transition-duration: .8s;
+    -moz-transition: transition-duration: .8s;
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
+
     background: #F46629;
     cursor: pointer;
     border: 1px solid #000;
@@ -97,7 +109,10 @@ a {
 
 .fixed-contact:hover {
     transform: rotate(-90deg) translateX(90px);
-    transition-duration: 1s;
+    -webkit-transition: transition-duration: .8s;
+    -moz-transition: transition-duration: .8s;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
     background: #477ACC;
     cursor: pointer;
     border: 1px solid #000;
@@ -129,10 +144,12 @@ h3 {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    /* grid-template-rows: repeat(14, 1fr); */
+    grid-template-rows: 17vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 1px 1px 1px 15px 15px;
     max-height: 1000px;
     
 }
+
 
 .developer {
     grid-column: 5 / 8;
@@ -198,8 +215,8 @@ h3 {
 .profile-pic {
    grid-column: 4 / 6;
    grid-row: 1 / 2;
-   min-width: 100px;
-   max-width: 160px;
+   min-width: 8em;; 
+   max-width: 9.5em;
    justify-self: center;
    border-radius: 50%;
    border: 1px solid #000;
@@ -215,9 +232,7 @@ h3 {
     border-top-left-radius: 50px;
     border-left: 1px solid #000;
     border-top: 1px solid #000;
-    -webkit-animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-    animation-delay: 0.3s;
+    
     
 }
 
@@ -230,13 +245,14 @@ h3 {
     font-family: 'Bauhaus', sans-serif;
     font-size: 1.2em;
     font-weight: bold; 
-    grid-column: 5 / 8;
+    grid-column: 5 / 9;
     grid-row: 3 / 4;
     align-self: end;
     justify-self: start;
     padding-left: 1vw;
     padding-bottom: .3em;
     background: #EBEBEB;
+    margin-left: 1em;
     
     
   
@@ -249,10 +265,6 @@ h3 {
     border-bottom-right-radius: 50px;
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
-    -webkit-animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-    z-index: 0;
 }
 
 .skills-block a {
@@ -270,9 +282,6 @@ h3 {
     border-top-left-radius: 50px;
     border-left: 1px solid #000;
     border-top: 1px solid #000;
-    -webkit-animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-    animation-delay: 0.3s;
 
 }   
 
@@ -288,8 +297,8 @@ h3 {
     grid-column: 5 / 6;
     grid-row: 2 / 9 ;
     background: rgb(0, 0, 0, .9);
-    z-index: 1;
     opacity: .8;
+    z-index: -1;
 
 }
 
@@ -310,7 +319,6 @@ h3 {
   grid-column: 3 / 7;
   grid-row: 4;
   border-radius: 3px;
-  z-index: 1;
     
 }
 
@@ -351,7 +359,7 @@ h3 {
     grid-template-areas: 
     "bio-top bio-top bio-top"
     "bio-content bio-content bio-content"
-    "menu-small menu-small menu-small"
+    /* "menu-small menu-small menu-small" */
     "pointer-block pointer-block pointer-block"
     "empty empty empty";
 }
@@ -463,7 +471,7 @@ h3 {
     grid-template-areas: 
     "skills-top skills-top skills-top"
     "skills-content skills-content skills-content"
-    "menu-small menu-small menu-small"
+    /* "menu-small menu-small menu-small" */
     "pointer-block pointer-block pointer-block"
     "empty empty empty";
 }
@@ -550,6 +558,8 @@ h3 {
 .skills-page .pointer-block {
     grid-area: pointer-block;
     justify-self: center;
+    margin-left: 8vw;
+    margin-top: 7px;
 }
 
 /* contact page */
@@ -564,7 +574,7 @@ h3 {
     "contact-top contact-top contact-top"
     "contact-content contact-content contact-content"
     "icons icons icons"
-    "menu-small menu-small menu-small"
+    /* "menu-small menu-small menu-small" */
 
 }
 
@@ -746,20 +756,37 @@ input[type=text]:focus {
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 767px) {
     .mondrian { 
-        margin-top: 10px;
+        margin-top: 20px;
         
     }
     .name-block {
         font-size: 1em;
+        margin-left: 2em;
     }
 
     .contact-page .small-menu {
         margin-bottom: 30px;
     }
+    .fixed-bio:hover ,
+    .fixed-skills:hover ,
+    .fixed-contact:hover {
+        transform: none;
+        transition-duration: 1s;
+        background: #EBEBEB;
+        cursor: none;
+        border: 0;
+
+    }
 }
-@media screen and (min-width: 850px) {
+
+@media (max-width: 375px) {
+    .profile-pic {
+        max-width: 7em;
+    }
+}
+@media screen and (min-width: 768px) {
 
     .mondrian .logo img {
         max-width: 100px;
@@ -810,7 +837,7 @@ input[type=text]:focus {
     }
     
     .bio-page .bio-content p {
-        margin-left: 35vw;
+        margin-left: 30vw;
         letter-spacing: .2em;
         margin-top: 15px;
         margin-bottom: 5px;
@@ -821,29 +848,34 @@ input[type=text]:focus {
     }
 
     .bio-page .bio-content img {
-        margin-left: 35vw;
+        margin-left: 30vw;
         letter-spacing: .2em;
-        max-width: 350px;
+        max-width: 30vw;
     }
     .skills-page .skills-content p{
-        margin-left: 35vw;
+        margin-left: 30vw;
         letter-spacing: .2em;
         
     }
 
     .skills-page .skills-content h3{
-        margin-left: 35vw;
+        margin-left: 30vw;
         letter-spacing: .2em;
         
     }
 
     .contact-page .contact-content form{
-        margin-left: 35vw;
+        margin-left: 30vw;
         letter-spacing: .2em;
         margin-right: 0;
     }
     .mondrian { 
         margin-top: 100px;
+        margin-bottom: 240px;
+    }
+
+    .profile-pic {
+        max-width: 14em;
     }
 
 }
@@ -856,6 +888,9 @@ input[type=text]:focus {
         letter-spacing: .2em;
         max-width: 450px;
     }
+    .mondrian { 
+        margin-top: 100px;
+    }
 
 }
 
@@ -865,6 +900,9 @@ input[type=text]:focus {
         margin-left: 35vw;
         letter-spacing: .2em;
         max-width: 530px;
+    }
+    .mondrian { 
+        margin-top: 100px;
     }
 
 }
@@ -876,5 +914,22 @@ input[type=text]:focus {
         letter-spacing: .2em;
         max-width: 650px;
     }
+    .mondrian { 
+        margin-top: 100px;
+    }
 
+}
+
+@media (max-width: 1024px) {
+    .fixed-bio:hover ,
+    .fixed-skills:hover ,
+    .fixed-contact:hover {
+        transform: none;
+        transition-duration: 1s;
+        background: #EBEBEB;
+        cursor: none;
+        border: 0;
+
+    }
+    
 }
