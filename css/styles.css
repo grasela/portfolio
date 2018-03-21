@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Bauhaus;
-    src: url(fonts/Bauhaus_.ttf);
+    font-family: "Bauhaus";
+    src: url("../fonts/Bauhaus_.ttf");
 }
 * {
     margin: 0;
@@ -16,6 +16,7 @@ body {
     background-attachment: fixed;
 
     background-color: #EBEBEB;
+    margin: 0 auto;
 
 }
 
