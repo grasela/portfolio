@@ -633,7 +633,7 @@ h3 {
     text-justify: inter-word;
     margin-bottom: 1vh;
     background-color: #EBEBEB;
-    padding: 1vh;
+    
 }
 
 .contact-page .small-menu {
@@ -654,7 +654,7 @@ h3 {
 
 input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #EBEBEB;
