@@ -741,6 +741,9 @@ input[type=text]:focus {
         border: 0;
 
     }
+    .skills-page {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 374px) {
@@ -754,6 +757,9 @@ input[type=text]:focus {
 
     .contact-page .contact-content {
         margin-top: 20px;
+    }
+    .skills-page {
+        margin-left: 0;
     }
 }
 @media screen and (min-width: 768px) {
