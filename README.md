@@ -30,7 +30,7 @@ One of my favourie designs by Bang & Olufsen
 
 [Bang and Olufsen](https://www.bang-olufsen.com/en)
 
-![Bang and Olufse]
+![Bang and Olufses](img/bangandolufsen.png)
 
 There is plenty on the web written about flat design. When you go through its principles it does remind of of initial principles of Bauhaus and modernism 
 
@@ -61,6 +61,9 @@ I have decided to use Sans-Serif fonts due to their modest looks. I ended up wit
 I have considered multiple options for a simple clean logo evolving around my initials "EG". I was toying with the idea of using both small caps letters, mix of downcase and uppercase, and only uppercase. I ended up with , in my opinion , the cleanest downcase "EG" with 3 dots on the right hand side and a square bracket as a base for the logo. 
 
 ### Pintrest moodboard ###
+
+My Pintrest moodboard is full off original avant-garde art as well as its later versions. It has certain minimalist design elements that I found inspiring in the process of creating the general layout and picking the fonts. 
+
 [Pinterest](https://www.pinterest.com.au/erykgrasela/avant-garde/)
 
 ![Pintrest Moodboard](img/pintrest_moodboard.png)
