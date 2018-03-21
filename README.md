@@ -18,10 +18,10 @@ I have always been interested in Bauhaus, 20th Century Avant-Garde, Architecture
 
 
 ### WIREFRAMES AND STYLING ###
-![Alt text](img/figma_landing_page.png?raw=true)
+![Landning Page](img/figma_landing_page.png)
 
 
-![Alt text](img/figma_different_devices.png?raw=true)
+![Multple Devies](img/figma_different_devices.png)
 
 Full Figma here:
 
@@ -31,7 +31,7 @@ Full Figma here:
 
 I have decided to use Sans-Serif fonts due to their modest looks. I ended up with hero font of "Bauhaus" which is used only on the landing page for my name. The other 2 supporting fronts are "Ubuntu: thin" for titles/headers and "Lato: Thin" for content. Based on my reserach they complement each other very well and using "Bauhaus" make a strong enough contribution to the theme. 
 
-![Alt text](img/figma_fonts.png?raw=true "Optional Title")
+![Fonts](img/figma_fonts.png)
 ### LOGO ###
 
 I have considered multiple options for a simple clean logo evolving around my initials "EG". I was toying with the idea of using both small caps letters, mix of downcase and uppercase, and only uppercase. I ended up with , in my opinion , the cleanest downcase "EG" with 3 dots on the right hand side and a square bracket as a base for the logo. 
@@ -39,7 +39,7 @@ I have considered multiple options for a simple clean logo evolving around my in
 ### Pintrest moodboard ###
 [Pinterest](https://www.pinterest.com.au/erykgrasela/avant-garde/)
 
-![Alt text](img/pintrest_moodboard.png?raw=true)
+![Pintrest Moodboard](img/pintrest_moodboard.png)
 
 ### Resources/TOOLS
 I have used several different tools during the design and creation process. Listed below: 
@@ -60,13 +60,13 @@ The landing page as proven to be quite challenging to use flexbox as I couldn't 
 
 I reverted back to grid which has allowed me to obtain the right ratio and proportions of the colourfull blocks.
 
-![Alt text](img/landingpage.png?raw=true)
+![Landing Page](img/landingpage.png)
 
 
 I originally assumed a horizontal menu that will be set at about 20% margin from the bottom of the page like this: 
 
 
-![Alt text](img/bottom_menu.png?raw=true)
+![Bottom Menu](img/bottom_menu.png)
 
 While it was looking very nice I realised it is taking a lot of valuable space on the page, particularly on a mobile design. 
 
@@ -76,15 +76,15 @@ I have decided to go with a left-hand sided fixed menu
 
 My final menu is fixed the left hand side of the page. 
 
-![Alt text](img/menu.png?raw=true)
+![Menu](img/menu.png)
 
 On a desktop size screens it has a :hover effect that transitions the little blocks hidden behind the left margin:
 
-![Alt text](img/menu_open.png?raw=true)
+![Menu open](img/menu_open.png)
 
 On mobile devices the left hand side menu stays in the same position however the hover effects are disabled:
 
-![Alt text](img/mobile_menu.png?raw=true)
+![Mobile Menu](img/mobile_menu.png)
 
 This solution allows maintaining the functionality and responsivnes at minimum effort. 
 
@@ -92,10 +92,12 @@ This solution allows maintaining the functionality and responsivnes at minimum e
 
 ### FINAL PRODUCT ###
 
-I am overall quite happy with the final result despite being aware of certain reponsivness issues on certain browsers models. 
+I am overall  happy with the final result despite of certain reponsivness issues on certain browsers models. 
 
-It does work on most mobile and tablets which make it very versitile. 
+It does work on most mobile and tablets which makes it very versitile. 
 
 I have noticed that the background image repeat decided to end on some Chrome versions. 
 
 I do think that the website clear and easy to read and my minimalist approach will get my brand accross. 
+
+I will continue working on the content adding "projects" site which will include my actual work. At this stage visitors can view my work on GitHub and CodePen.

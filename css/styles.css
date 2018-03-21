@@ -14,10 +14,8 @@
 body {
     background-image: url("/img/bg_dots.gif");
     background-attachment: fixed;
-
     background-color: #EBEBEB;
     margin: 0 auto;
-
 }
 
 a {
@@ -31,7 +29,6 @@ a {
     flex-direction: row;
     margin-top: 16vh;
     transform: rotate(90deg) translate(220px, 210px);
-    
 }
 
 .fixed-bio a {
@@ -81,22 +78,19 @@ a {
     margin-right: 10px;
     padding-top: 5px;
     padding-left: 37px;
-  
 }
 
 .fixed-skills:hover {
-
-    
     transform: rotate(-90deg) translateX(90px);
     -webkit-transition: transition-duration: .8s;
     -moz-transition: transition-duration: .8s;
     transition-duration: .8s;
     transition-timing-function: ease-in-out;
-
     background: #F46629;
     cursor: pointer;
     border: 1px solid #000;
 }
+
 .fixed-contact {
     width: 150px;
     height: 80px;
@@ -104,9 +98,7 @@ a {
     border-bottom-right-radius: 50px;
     border: 0;
     padding-top: 5px;
-    padding-left: 17px;
-
-    
+    padding-left: 17px; 
 }
 
 .fixed-contact:hover {
@@ -118,15 +110,15 @@ a {
     background: #477ACC;
     cursor: pointer;
     border: 1px solid #000;
-    
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
     max-width: 900px;
     margin: 0 auto;
-    
 }
+
 h1 {
     font-family: 'Bauhaus', sans-serif;
 }
@@ -134,7 +126,6 @@ h1 {
 h3 {
     font-family: 'Ubuntu', sans-serif;
 }
-
 
 .landing-page {
     max-width: 900px;
@@ -149,9 +140,7 @@ h3 {
     /* grid-template-rows: repeat(14, 1fr); */
     grid-template-rows: 17vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 1px 1px 1px 15px 15px;
     max-height: 1000px;
-    
 }
-
 
 .developer {
     grid-column: 5 / 8;
@@ -160,8 +149,8 @@ h3 {
     align-self: center;
     margin-bottom: 2.5em;
     background: #EBEBEB;
-    
 }
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -236,8 +225,6 @@ h3 {
     border-top-left-radius: 50px;
     border-left: 1px solid #000;
     border-top: 1px solid #000;
-    
-    
 }
 
 .bio-block a {
@@ -257,9 +244,6 @@ h3 {
     padding-bottom: .3em;
     background: #EBEBEB;
     margin-left: 1em;
-    
-    
-  
 }
 
 .skills-block {
@@ -275,7 +259,6 @@ h3 {
     width: 100%;
     height: 100%;
     display: inline-block;
-
 }
 
 
@@ -286,7 +269,6 @@ h3 {
     border-top-left-radius: 50px;
     border-left: 1px solid #000;
     border-top: 1px solid #000;
-
 }   
 
 .contact-block a {
@@ -301,30 +283,25 @@ h3 {
     grid-column: 5 / 6;
     grid-row: 2 / 9 ;
     background: #000;
-   
     z-index: 1;
-
 }
 
 .horizontal-thin {
     height: .3em;
-  grid-column: 2 / 6;
-  grid-row: 8;
-  border-radius: 5px;
-  background: #000;
-  z-index: 1;
-    
- 
+    grid-column: 2 / 6;
+    grid-row: 8;
+    border-radius: 5px;
+    background: #000;
+    z-index: 1; 
 }
 
 
 .horizontal {
     height: .5em;
     background: #000;
-  grid-column: 3 / 7;
-  grid-row: 4;
-  border-radius: 3px;
-    
+    grid-column: 3 / 7;
+    grid-row: 4;
+    border-radius: 3px;
 }
 
 
@@ -348,8 +325,8 @@ h3 {
     -webkit-animation-delay: 1.5s;
     -moz-animation-delay: 1.5s;
     animation-delay: 1.5s;
-
 }
+
 .logo img {
     width: 18vw;
     height: 12vh;
@@ -379,10 +356,10 @@ h3 {
     justify-content: space-between;
     width: 90vw;
 }
+
 .bio-page .logo {
     width: 18vw;
     height: 12vh;
-    
 }
 
 .bio-page .logo img {
@@ -398,7 +375,6 @@ h3 {
     height: 2vh;
     margin-left:30vw;
     background: #EBEBEB;
-
 }
 
 .bio-page .bio-block {
@@ -414,7 +390,6 @@ h3 {
     width: 70vw;
     margin-left: 20vw;
     margin-top: 0vh;
-    
 }
 
 .bio-page .bio-content img {
@@ -451,14 +426,12 @@ h3 {
     width: 33vw;
     text-align: center;
     font-size: 0.9em;
-
 } 
 
 .bio-page .menu-small-bio {
     color: #EDB230;
     font-weight: 900;
     font-size: 0.9em;
-
 }
 
 .bio-page .pointer-block {
@@ -490,7 +463,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     width: 90vw;
-    
 }
 
 .skills-top .logo {
@@ -511,8 +483,8 @@ h3 {
     font-size: 1em;
     margin-left: 34vw;
     background: #EBEBEB;
-  
 }
+
 .skills-top .skills-block {
     border: 1px solid #000;
     margin-top: 1vh;
@@ -579,8 +551,6 @@ h3 {
     "contact-top contact-top contact-top"
     "contact-content contact-content contact-content"
     "icons icons icons"
-    /* "menu-small menu-small menu-small" */
-
 }
 
 .contact-page .contact-top {
@@ -630,29 +600,18 @@ h3 {
     font-size: 0.7em;
 }
 
-/* .contact-content p {
-    text-align: justify;
-    text-justify: inter-word;
-    margin-bottom: 1vh;
-    background-color: #EBEBEB;
-    padding: 1vh;
-    
-} */
-
 .contact-page .small-menu {
     width: 100vw;
     height: 2vh;
     grid-area: menu-small;
     background-color: #EBEBEB;
     margin-bottom: 80px;
-
 }
 
 .contact-page .menu-small-contact {
     color: #477ACC;
     font-weight: 900;
     font-size: 0.9em;
-
 }
 
 input[type=text], select {
@@ -685,7 +644,6 @@ textarea {
     font-size: 0.9em;
     padding-left: 1em;
     border-radius: 5px;
-
 }
 
 textarea:focus {
@@ -694,6 +652,7 @@ textarea:focus {
     border-right: 2px solid #000;
     outline: none;
 }
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #000;
     font-size: 0.9em;
@@ -747,8 +706,6 @@ input[type=text]:focus {
     border: 1px solid #EBEBEB;
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
-
-    
 }
 
 .icons {
@@ -941,7 +898,5 @@ input[type=text]:focus {
         background: #EBEBEB;
         cursor: none;
         border: 0;
-
     }
-    
 }
