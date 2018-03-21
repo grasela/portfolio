@@ -3,7 +3,7 @@ http://eryk.netlify.com
 
 ### INTRO ###
 
-My website presents my portfolio and inspirations as well as giving visitors access to different platforms where they can view my current work. The aim is to make a mark online where people can easily find me and contact me. 
+My website presents my portfolio and inspirations as well as gives visitors access to different platforms where they can view my current work. The aim is to make a mark online where people can easily find me and contact me. 
 
 
 ### INSPIRATION ###
@@ -11,13 +11,37 @@ My website presents my portfolio and inspirations as well as giving visitors acc
 I have always been interested in Bauhaus, 20th Century Avant-Garde, Architecture and Modernism. Due to the fact that next year 2019 we will be celebrating 100 years of Bauhaus School of Art in Weimar, Germany my portfolio is a small tribute to those design principles that are still present and considered modern even 100 years later. 
 
 - colors
-    - Original colors were inspired by 20th century bauhaus and avant-garde movements. The final choice of the color pallette has been a result of trying different schemes. The original prime colors used in avant-garde were a lot stronger and intesnse. It is due to the fact that the message channelled through these in the last 100 years was very often political, with the aim of stripping art of its current layout and design standards. They needed to create new abstract forms. My final choice is meant to be a lot more contemporary and friendly. The portfolio is meant to be minimalistic however pragmatic and inviting. 
+    - Original colors were inspired by 20th century Bauhaus and European Avant-Garde. The final choice of the color pallette has been a result of trying different schemes. The original prime colors used in avant-garde were a lot stronger and intesnse. It is due to the fact that the message channelled through these in the last 100 years was very often political, with the aim of stripping art of its current layout and design standards. They needed to create new abstract forms. My final choice is meant to be a lot more contemporary and friendly. The portfolio is meant to be minimalistic however pragmatic and inviting. 
 
 - design
-    - the chosem theme required from me consistenty. I didn't want to copy any bauhaus or avant-garde art that you can find online however I wanted to pass on my own, contemporary version of it. The abstract element of the "canvas" are usable and practical through active links and smooth css stying
+    - the chosem theme required from me consistency. I didn't want to copy any bauhaus or avant-garde art that you can find online however I wanted to pass on my own, contemporary version of it. The abstract elements of the "canvas" are usable and practical through active links and smooth css stying.
 
+- other websites
+
+I To sie Ceni 
+
+This website has won multiple awards for its CSS.
+
+[Itosieceni](http://www.itosieceni.pl/)
+
+![Itosieceni](img/itosieceni.png)
+
+One of my favourie designs by Bang & Olufsen
+
+[Bang and Olufsen](https://www.bang-olufsen.com/en)
+
+![Bang and Olufse]
+
+There is plenty on the web written about flat design. When you go through its principles it does remind of of initial principles of Bauhaus and modernism 
+
+[Flat Design Examples](https://designmodo.com/flat-design-examples/)
+
+![Flat Design](img/flatdesign.png)
 
 ### WIREFRAMES AND STYLING ###
+
+As you can see below the entire website is an infinite scroll with anchored id tags that point to linked parts of the website
+
 ![Landning Page](img/figma_landing_page.png)
 
 
@@ -62,13 +86,14 @@ I reverted back to grid which has allowed me to obtain the right ratio and propo
 
 ![Landing Page](img/landingpage.png)
 
+![Grid Design](img/grid.png)
 
 I originally assumed a horizontal menu that will be set at about 20% margin from the bottom of the page like this: 
 
 
 ![Bottom Menu](img/bottom_menu.png)
 
-While it was looking very nice I realised it is taking a lot of valuable space on the page, particularly on a mobile design. 
+While it was looking very nice I realised it is taking a lot of valuable space on the page, particularly on a mobile devices. 
 
 I have decided to go with a left-hand sided fixed menu
 
@@ -88,8 +113,6 @@ On mobile devices the left hand side menu stays in the same position however the
 
 This solution allows maintaining the functionality and responsivnes at minimum effort. 
 
-
-
 ### FINAL PRODUCT ###
 
 I am overall  happy with the final result despite of certain reponsivness issues on certain browsers models. 
@@ -98,6 +121,6 @@ It does work on most mobile and tablets which makes it very versitile.
 
 I have noticed that the background image repeat decided to end on some Chrome versions. 
 
-I do think that the website clear and easy to read and my minimalist approach will get my brand accross. 
+I do think that the website is clear and easy to read and my minimalist approach will get my brand accross. 
 
 I will continue working on the content adding "projects" site which will include my actual work. At this stage visitors can view my work on GitHub and CodePen.
