@@ -14,9 +14,9 @@
 body {
     background-image: url("/img/bg_dots.gif");
     background-attachment: fixed;
-    background-repeat: repeat;
+
     background-color: #EBEBEB;
-    background-size: cover;
+
 }
 
 a {
@@ -571,7 +571,7 @@ h3 {
 .contact-page {
     height: 100vh;
     width: 100vw;
-    max-width: 541px;
+
     display: grid;
     justify-items: stretch;
     grid-template-areas: 
