@@ -629,14 +629,14 @@ h3 {
     font-size: 0.7em;
 }
 
-.contact-content p {
+/* .contact-content p {
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 1vh;
     background-color: #EBEBEB;
     padding: 1vh;
     
-}
+} */
 
 .contact-page .small-menu {
     width: 100vw;
@@ -717,8 +717,6 @@ textarea:focus {
 
 label {
     background-color: #EBEBEB;
-    padding: 1.5vw;
-    padding: 12px 12px 12px 0;
     display: inline-block;
     
 }
