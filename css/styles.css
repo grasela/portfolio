@@ -445,6 +445,7 @@ h3 {
     width: 100vw;
     max-width: 541px;
     display: grid;
+    margin-left: 5vw;
     justify-items: stretch;
     grid-template-areas: 
     "skills-top skills-top skills-top"
