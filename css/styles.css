@@ -15,6 +15,7 @@ body {
     background-image: url("/img/bg_dots.gif");
     background-attachment: fixed;
     background-repeat: repeat;
+    background-repeat: repeat-x;
     background-color: #EBEBEB;
 }
 
@@ -27,7 +28,7 @@ a {
     position: fixed;
     display: flex;
     flex-direction: row;
-    margin-top: 20vh;
+    margin-top: 16vh;
     transform: rotate(90deg) translate(220px, 210px);
     
 }
@@ -298,9 +299,8 @@ h3 {
     width: .2em;
     grid-column: 5 / 6;
     grid-row: 2 / 9 ;
-    background: rgb(0, 0, 0, .9);
-    -moz-opacity: .8;
-    opacity: .8;
+    background: #000;
+   
     z-index: 1;
 
 }
@@ -310,7 +310,7 @@ h3 {
   grid-column: 2 / 6;
   grid-row: 8;
   border-radius: 5px;
-  background: rgb(0, 0, 0, .7);
+  background: #000;
     
  
 }
@@ -633,6 +633,7 @@ h3 {
     text-justify: inter-word;
     margin-bottom: 1vh;
     background-color: #EBEBEB;
+    padding: 1vh;
     
 }
 
@@ -654,7 +655,7 @@ h3 {
 
 input[type=text], select {
     width: 100%;
-    /* padding: 12px 20px; */
+    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #EBEBEB;
