@@ -1,4 +1,5 @@
 ### INTRO ###
+http://eryk.netlify.com/
 
 My website presents my portfolio and inspirations as well as giving visitors access to different platforms where they can view my current work. The aim is to make a mark online where people can easily find me and contact me. 
 
